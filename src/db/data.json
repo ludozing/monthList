@@ -1,0 +1,60 @@
+{
+  "months": [
+    {
+      "id": 1,
+      "month": "12월"
+    },
+    {
+      "id": 2,
+      "month": "1월"
+    },
+    {
+      "id": 3,
+      "month": "2월"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "deadline": true,
+      "month": "12월",
+      "title": "[BIM]건축 설계",
+      "day": "2021년 12월 28일"
+    },
+    {
+      "id": 2,
+      "deadline": false,
+      "month": "12월",
+      "title": "[BIM]건축 설계",
+      "day": "2021년 12월 28일"
+    },
+    {
+      "id": 3,
+      "deadline": true,
+      "month": "1월",
+      "title": "[BIM]건축 설계",
+      "day": "2021년 12월 28일"
+    },
+    {
+      "id": 4,
+      "month": "1월",
+      "title": "[BIM]건축 설계",
+      "deadline": true,
+      "day": "2022년 1월 12일"
+    },
+    {
+      "id": 5,
+      "month": "2월",
+      "title": "[BIM]건축 설계",
+      "deadline": true,
+      "day": "2022년 1월 12일"
+    },
+    {
+      "id": 6,
+      "month": "2월",
+      "title": "[BIM]건축 설계",
+      "deadline": false,
+      "day": "2022년 1월 12일"
+    }
+  ]
+}

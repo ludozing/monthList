@@ -1,0 +1,44 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+a { text-decoration: none; color:inherit;}
+.App {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.header {
+  padding: 20px 0;
+}
+li {
+  list-style:none;
+}
+.monthlist ul {
+  display: flex;
+  padding-bottom: 30px;
+}
+.monthlist ul li {
+  padding: 10px 30px;
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table, td {
+  border: 1px solid #ccc;
+}
+td {
+  padding: 20px;
+}
+td:nth-child(1) {
+  text-align: center;
+  width: 30%;
+}
+tr.on td {
+  background-color: #eee;
+}
+tr.on td:nth-child(1)::before {
+  content: "모집완료";
+}
